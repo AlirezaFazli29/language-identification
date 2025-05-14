@@ -1,0 +1,10 @@
+services:
+  fasttext-lang-detector:
+    container_name: lang-detector
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lang-detector:dev
+    ports:
+      - "8004:8080"
+    restart: unless-stopped
