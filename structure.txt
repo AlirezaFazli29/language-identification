@@ -4,12 +4,12 @@
 │   │   ├── __init__.py
 │   │   ├── routes.py
 │   │   └── schemas.py
-│   └── core
-│       ├── model
-│       │   └── lid.176.bin
-│       ├── __init__.py
-│       ├── lang.py
-│       └── utils.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── lang.py
+│   │   └── model
+│   │       └── lid.176.bin
+│   └── main.py
 ├── .dockerignore
 ├── .gitignore
 ├── dev.ipynb
